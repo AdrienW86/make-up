@@ -52,27 +52,11 @@ export const soldes = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue",
-        marque: "Leticia Well",
-        oldPrice: 3.00,
-        price: 2,
-        picture: '/vernis.png'
-    },
-    {
-        id: uuidv4(),
-        description: "Vernis à ongles fluorescent",
-        marque: "Easy Paris",
-        oldPrice: 3.00,
-        price: 2,
-        picture: '/fluorescent.png'
-    },
-    {
-        id: uuidv4(),
         description: "Vernis à ongles tenue jusqu'à 9 jours effet gel haute brillance",
         marque: "Easy Paris",
         oldPrice: 3.00,
         price: 2.50,
-        picture: '/easy9.png'
+        picture: '/easy-black.png'
     },
 ]
 
@@ -89,7 +73,7 @@ export const news = [
         description: "Vernis à ongles tenue jusqu'à 9 jours effet gel haute brillance",
         marque: "Easy Paris",
         price: 2.50,
-        picture: '/easy9.png'
+        picture: '/easy-black.png'
     },
 ]
 
@@ -165,8 +149,8 @@ export const brillant = [
 export const easy = [
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (rose)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (rose)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "rose",
         picture: '/easy-pink.png',
@@ -176,8 +160,8 @@ export const easy = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (blanc)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (blanc)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "blanc",
         picture: '/easy-white.png',
@@ -187,8 +171,8 @@ export const easy = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (jaune)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (jaune)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "jaune",
         picture: '/easy-yellow.png',
@@ -198,8 +182,8 @@ export const easy = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (bleu)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (bleu)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "bleu",
         picture: '/easy-blue.png',
@@ -209,8 +193,8 @@ export const easy = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (violet)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (violet)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "violet",
         picture: '/easy-purple.png',
@@ -220,8 +204,8 @@ export const easy = [
     },
     {
         id: uuidv4(),
-        description: "Vernis à ongles effet gel laque brillant diamant longue tenue (gris)",
-        marque: "Leticia Well",
+        description: "Vernis à ongles effet gel haute brillance (gris)",
+        marque: "Easy Paris",
         price: 2.50,
         color: "gris",
         picture: '/easy-grey.png',
@@ -229,6 +213,17 @@ export const easy = [
         emploi: "appliquer sur des ongles propres et secs.",
         warning: "Produit inflammable ! Conserver à l'abri de la chaleur, ne pas digérer. Tenir hors de portée des enfants.",
     },   
+    {
+        id: uuidv4(),
+        description: "Vernis à ongles effet gel haute brillance (noir)",
+        marque: "Easy Paris",
+        price: 2.50,
+        color: "noir",
+        picture: '/easy-black.png',
+        composition: "Acétate de butyle, acétate d'éthyle, nitrocellulose, copolymère acide adipique/néopentylglycol/anhydride trimellitique, copolymère d'acétylates, bentonite de stéaralkonium, copolymère de styrène/acrylates, benzophénone-1, parfum.",
+        emploi: "appliquer sur des ongles propres et secs.",
+        warning: "Produit inflammable ! Conserver à l'abri de la chaleur, ne pas digérer. Tenir hors de portée des enfants.",
+    },
 ];
 export const fluo = [
     {
