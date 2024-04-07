@@ -66,6 +66,15 @@ export default function Header() {
                 <span className={styles.line}></span>
             </button>
         </div>
+        {isMenuOpen && 
+          <section className={styles.menu}>
+            <ul>
+              <li className={styles.li}> <Link href="/" onClick={handleMenuToggle}> Accueil </Link></li>
+              <li className={styles.li}> <Link href="/shop" onClick={handleMenuToggle}> Boutique </Link></li>
+              <li className={styles.li}> <Link href="/soldes" onClick={handleMenuToggle}> Promos </Link></li>
+              <li className={styles.li}> <Link href="news" onClick={handleMenuToggle}> Nouveautés </Link></li>
+            </ul>
+          </section>}
     </header>
   )
 }

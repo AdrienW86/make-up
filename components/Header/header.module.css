@@ -84,3 +84,24 @@
     cursor: pointer;
     background-color: #868686;
 }
+
+.menu {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    height: 200px;
+    width: 100%;
+    background-color: #F8EFF1;
+    border-bottom: 1px solid #e6007e;
+}
+
+.li {
+    color:  #e6007e;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #e6007e;
+    font-family: "Bebas Neue", sans-serif;
+    height: 50px;
+}
