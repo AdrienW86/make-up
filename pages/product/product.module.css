@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    width: 280px;
+    margin: 20px auto;
+}
+
+.title {
+    margin: 50px 20px;
+    text-align: center;
+    color: #e6007e;
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+.picture {
+    margin-left: 25px
+ }
+
+.marque, .price {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+.btn {
+    letter-spacing: 0.2em;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 280px;
+    margin: 50px auto;
+    border-radius: 20px;
+    height: 40px;
+    background-color: black;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

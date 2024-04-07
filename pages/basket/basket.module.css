@@ -1,0 +1,242 @@
+.container {
+    width: 100%;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.h2 {
+    text-align: center;
+    margin : 50px auto;
+    color: #e6007e;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    width: 100%;
+}
+
+.basket {
+    min-height: 70vh;
+    width: 100%;
+}
+
+.warning { 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    min-height: 300px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.close {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: white;
+    text-align: center;
+    transition: .4s ease-in-out;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.close:hover {
+    cursor: pointer;
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+.nameBackground {
+    padding: 10px;
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: white;
+    display: flex;
+    letter-spacing: 0.1em;
+    font-family: "Bebas Neue", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6007e;
+}
+
+.infos {
+    margin: 10px auto;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.price, .quantity {
+    display: flex;
+    font-weight: bold;
+    position: absolute; 
+}
+
+.price {
+    right: 20px;
+}
+
+.quantity {
+    left: 20px;
+}
+
+.addBtn, .removeBtn {
+    color: rgb(255, 255, 255);
+    background-color: #e6007e;
+    border: none;
+    position: relative;
+    z-index: 12;
+}
+
+.addBtn {
+    left: 10px;
+}
+
+.removeBtn {
+    right: 10px;
+}
+
+.addBtn:hover, .removeBtn:hover {
+    cursor: pointer;
+}
+
+.total {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+    border-top: 1px solid black
+}
+
+.totalAmount {
+    letter-spacing: 0.1em;
+}
+
+.spanTotal {
+    letter-spacing: 0.1em;
+    color: #e6007e;
+}
+
+.spanTotal2 {
+    letter-spacing: 0.1em;
+    color: #e6007e;
+    margin-left: 6px;
+}
+
+.pictureAndBtnContainer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.boxPicture {
+   
+    width: 100%;
+    
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.addBtn ,.removeBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em; 
+    text-align: center;
+    justify-content: center;
+    margin: auto 0;  
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.validate {
+    width: 150px;
+    margin: 20px auto;
+    color: white;
+    background-color: #e6007e;
+    border: 1px solid white;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;  
+    border-radius: 8px;
+    transition: .4s ease-in-out;
+}
+
+.validate:hover {
+    cursor: pointer;
+    filter: brightness(70%) grayscale(0%);
+}
+
+.productPriceTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 30px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+
+.delivery {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    justify-content: center;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.warningDelivery {
+    width: 100%;
+    padding: 30px 10px;
+    text-align: center;
+}

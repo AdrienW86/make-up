@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+   
+.banner {
+    position: relative;
+    width: 100%;
+    transition: .4s ease-in-out;
+    overflow: hidden;
+    aspect-ratio: 3/3;
+    max-height: 100vh;
+}
+
+.description {
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    color: #e6007e;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 22px;
+    line-height: 1.2em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.h1 {
+    position: absolute;
+    bottom: 80px;
+    padding-left: 22px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.background {
+    filter: brightness(70%) grayscale(0%);
+}
