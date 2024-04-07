@@ -104,4 +104,10 @@
     border-top: 1px solid #e6007e;
     font-family: "Bebas Neue", sans-serif;
     height: 50px;
+    transition: .4s ease-in-out
+}
+
+.li:hover {
+    color: black;
+    cursor: pointer;
 }
